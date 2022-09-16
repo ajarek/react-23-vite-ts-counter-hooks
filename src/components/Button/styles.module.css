@@ -1,0 +1,17 @@
+.root {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  min-height: 35px;
+}
+.root:hover {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #5a01a7;
+}
+.root:focus {
+  transform: scale(1.1);
+}
