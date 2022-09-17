@@ -23,7 +23,7 @@ export const Counter = (props: Counter) => {
         </Button>
         <Button
           className={classes.reset}
-          onClick={() => setCount((count) => (count = initialValue))}
+          onClick={() => setCount((count) => count = initialValue)}
         >
           RESET
         </Button>
